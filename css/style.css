@@ -19,7 +19,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    position: fixed;
+    /* position: fixed; */
     background-color: transparent;
     transition: all 0.2s linear;
 }
@@ -79,21 +79,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 140px;
+    margin-top: 40px;
     margin-left: 120px;
     gap: 35px;
 }
-.blog-items__main-text{
+
+.blog-items__main-text {
     display: flex;
     flex-direction: column;
     gap: 30px;
     margin-bottom: 80px;
 }
- 
+
 
 .blog-items__main img {
     width: 621px;
-    height:440px;
+    height: 440px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
@@ -104,16 +105,19 @@
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
-    line-height: 42px; /* 116.667% */
+    line-height: 42px;
+    /* 116.667% */
     text-transform: uppercase;
 }
+
 .blog-items__main-text h1 {
     color: #999;
     font-family: Libre Franklin;
     font-size: 10px;
     font-style: normal;
     font-weight: 400;
-    line-height: 12px; /* 120% */
+    line-height: 12px;
+    /* 120% */
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -124,7 +128,8 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
+    /* 150% */
 }
 
 .blog-items__main-text h2 {
@@ -133,10 +138,299 @@
     font-size: 10px;
     font-style: normal;
     font-weight: 700;
-    line-height: 12px; /* 120% */
+    line-height: 12px;
+    /* 120% */
     letter-spacing: 1px;
     text-transform: uppercase;
-  }
+}
 
-  /* ikkinchi page */
-  
+/* ikkinchi page */
+
+h2 {
+    color: #000;
+    font-family: Tenor Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.page2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    gap: 10px;
+}
+
+.page2-box {
+    width: 393px;
+    height: 481px;
+    padding-top: 26px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page2-box img {
+    width: 337px;
+    height: 254px;
+    margin-left: 60px
+}
+
+.page2-box-bottom {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 200px;
+}
+
+.page2 hr {
+    margin-top: 65px;
+    width: 1200px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #e6e6e6;
+}
+
+.h {
+    margin-top: 90px;
+}
+
+/* page3 */
+
+.page3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.page3-box {
+    width: 290px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page3-box-bottom {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 200px;
+}
+
+.page3-button {
+    width: 205px;
+    height: 54px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #fff;
+    color: #000;
+    font-family: Libre Franklin;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    /* 120% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 65px;
+}
+
+/* page 4 */
+
+.page4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.page4-box {
+    width: 590px;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.page4-box-bottom {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: 200px;
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    padding: 90px 0px;
+    background: #141414;
+    margin-top: 65px;
+}
+
+.footer-items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.footer-logo {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    align-items: flex-end;
+}
+
+.footer-logo h2 {
+    color: #fff;
+}
+
+.footer-logo span {
+    color: #666;
+    font-family: Libre Franklin;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    /* 120% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 4px;
+}
+
+.footer-navigator span {
+    color: #666;
+    font-family: Libre Franklin;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    /* 120% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+.footer-navigator {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-nav__category {
+    width: 70%;
+    padding-bottom: 15px;
+}
+
+.footer-nav__category ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.footer-nav__category ul li {
+    width: 25%;
+    padding-top: 15px;
+    list-style: none;
+}
+
+.footer-nav__category ul li a {
+    color: #fff;
+    font-family: Libre Franklin;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.footer-nav__subscribe {
+    width: 30%;
+}
+
+.footer-nav__subscribe form {
+    margin-top: 25px;
+    display: flex;
+    width: 100%;
+}
+
+.footer-nav__subscribe form input {
+    border: 1px solid #ccc;
+    outline: none;
+    background: #fff;
+    color: #666;
+    font-family: Libre Franklin;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    /* 120% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 18px 24px;
+    width: 70%;
+}
+
+.footer-nav__subscribe form button {
+    background: #000;
+    color: #fff;
+    padding: 18px 24px;
+    font-family: Libre Franklin;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    /* 120% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+    width: 30%;
+    cursor: pointer;
+}
+
+.footer-nav__links {
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    width: 70%;
+}
+
+.link-item {
+    width: 25%;
+}
+
+.link-item ul {
+    margin-top: 15px;
+}
+
+.link-item ul li {
+    padding: 5px 30px 5px 0px;
+    list-style: none;
+}
+
+.link-item ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Libre Franklin;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+}
